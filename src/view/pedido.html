@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Sacramento&display=swap" rel="stylesheet">
+    <title>Pasteleria Yuumi</title>
+</head>
+<body>
+    <section >
+            <ul class="horizontal">
+                <li><img class="logo" src="src/img/logo.png" alt=""></li>
+                <li><a href="./admon.html">Administración</a></li>
+                <li><a href="./pedido.html">Pedido</a></li>
+                <li><a href="../../">Menú</a></li>
+            </ul>          
+        </nav>
+    </section>
+    <section class="tablaMenu">
+        <!-- SAbores, Adornos -->
+        <div class="title">Has tu pedido</div>
+        <form action="" method="post" class="form">
+            <!-- Name, Phone, email, Description -->
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Nombre</span>
+                    <input type="text" placeholder="Ingresa tu nombre" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Teléfono</span>
+                    <input type="tel" placeholder="Ingresa tu teléfono" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Correo</span>
+                    <input type="email" placeholder="Ingresa tu correo" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Descripción</span>
+                    <input type="text" placeholder="Ingresa tu descripción" required>
+                </div>
+                <br>
+                <!-- Sabores y adornos chekbox -->
+                <div class="flex">
+                    <span class="detailCheck">Sabores</span>
+                    <div class="sabores">
+                        <input type="checkbox" name="chocolate" id="chocolate" value="chocolate">
+                        <label for="chocolate">Chocolate.......<b>$10</b></label>
+                        <br>
+                        <input type="checkbox" name="vainilla" id="vainilla" value="vainilla">
+                        <label for="vainilla">Vainilla...........<b>$8</b></label>
+                        <br>
+                        <input type="checkbox" name="fresa" id="fresa" value="fresa">
+                        <label for="fresa">Fresa...............<b>5$</b></label>
+                        <br>
+                        <input type="checkbox" name="limon" id="limon" value="limon">
+                        <label for="limon">Limón.............<b>$12</b></label>
+                        <br>
+                        <input type="checkbox" name="coco" id="coco" value="coco">
+                        <label for="coco">Coco...............<b>$15</b></label>
+                    </div>
+                    <br>
+                    <span class="detailCheck">Adornos</span>
+                    <div class="adornos">
+                        <input type="checkbox" name="fondant" id="fondant" value="fondant">
+                        <label for="fondant">Fondant......<b>$20</b></label>
+                        <br>
+                        <input type="checkbox" name="betun" id="betun" value="betun">
+                        <label for="betun">Betun..........<b>$30</b></label>
+                        <br>
+                        <input type="checkbox" name="glaseado" id="glaseado" value="glaseado">
+                        <label for="glaseado">Glaseado.....<b>$35</b></label>
+
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" class="button" value="Enviar">
+            </div>
+        </form>
+    </section>
+    <br>
+    <footer>
+        <div class="footer-info">
+            <div class="footer-info-item">
+                <h2 class="footer-info-title">Dirección</h2>
+                <p class="footer-info-text">Frente al campo de futbol, a la par del tribunal electoral.</p>
+            </div>
+            <div class="footer-info-item">
+                <h2 class="footer-info-title">Teléfono</h2>
+                <p class="footer-info-text">+52 22023687</p>
+            </div>
+            <div class="footer-info-item">
+                <h2 class="footer-info-title">Horario</h2>
+                <p class="footer-info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+            </div>
+    </footer>
+</body>
+</html>
