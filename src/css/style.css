@@ -33,7 +33,8 @@ footer {
 /* Navbar */
 .logo{
     float: left;
-    width: 46px;
+    height: 50px;
+    margin-left: 5px;
 }
 
 ul.horizontal {
@@ -62,7 +63,6 @@ ul.horizontal li a {
     background-size: cover;
     background-position: center;
     height: 1000px;
-    background-image: url('../img/banner2.png');
 }
 
 .textoBanner{
