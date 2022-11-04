@@ -1,4 +1,4 @@
-# Bienvenidos a mi práctica de Htlm!
+# Bienvenidos a mi práctica de Html!
 
 Pueden clickear [Aquí](https://elvis-r-alfaro.github.io/Launch-X-Latam/) para ver el preview de mi página :)
 # Prácticas HTML
