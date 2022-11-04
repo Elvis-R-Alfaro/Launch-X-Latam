@@ -59,10 +59,10 @@ ul.horizontal li a {
 .banner{
     width: 100%;
     margin-bottom: 30px;
-    background-image: url('/src/img/banner.png');
     background-size: cover;
     background-position: center;
-    height: 1000px;    
+    height: 1000px;
+    background-image: url('../img/banner2.png');
 }
 
 .textoBanner{
